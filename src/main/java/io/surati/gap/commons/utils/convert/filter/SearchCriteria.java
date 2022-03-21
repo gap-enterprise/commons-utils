@@ -1,6 +1,6 @@
 package io.surati.gap.commons.utils.convert.filter;
 
-import io.surati.gap.commons.utils.time.BasicPeriod;
+import io.surati.gap.commons.utils.time.SimplePeriod;
 import io.surati.gap.commons.utils.time.Period;
 
 import java.time.LocalDate;
@@ -38,7 +38,7 @@ public abstract class SearchCriteria {
 	}
 	
 	public void addInterval(final FieldDate field, final LocalDate begin, final LocalDate end) {
-		this.addInterval(field, new BasicPeriod(begin, end));
+		this.addInterval(field, new SimplePeriod(begin, end));
 	}
 	
 	public void addInterval(final FieldDate field, final Period period) {
