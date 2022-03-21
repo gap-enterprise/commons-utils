@@ -24,7 +24,7 @@ SOFTWARE.
   </parent>
   <groupId>io.surati.gap</groupId>
   <artifactId>commons-utils</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.2</version>
   <description>Common utilities</description>
   <url>https://github.com/gap-enterprise/commons-utils</url>
   <inceptionYear>2022</inceptionYear>
